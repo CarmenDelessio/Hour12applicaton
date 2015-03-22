@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hour12applicaton</string>
+
+    <string-array name="choices_array">
+        <item>Launch Video using an Intent</item>
+        <item>Show VideoView  </item>
+        <item>Show VideoView with Media Controller </item>
+        <item>Show VideoView with Custom Button</item>
+        <item>Show Play Audio Activity</item>
+
+    </string-array>
+
+
+    <string name="title_activity_video_view">VideoViewActivity</string>
+    <string name="title_activity_video_view_media_controller">VideoViewMediaControllerActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_video_view_play_pause">VideoViewPlayPause</string>
+    <string name="title_activity_audio">AudioActivity</string>
+
+</resources>

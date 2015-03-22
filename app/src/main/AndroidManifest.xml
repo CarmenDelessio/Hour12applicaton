@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.talkingandroid.hour12applicaton" >
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|keyboardHidden"
+            android:name=".VideoViewActivity"
+            android:label="@string/title_activity_video_view" >
+        </activity>
+        <activity
+            android:configChanges="orientation|keyboardHidden"
+            android:name=".VideoViewMediaControllerActivity"
+            android:label="@string/title_activity_video_view_media_controller" >
+        </activity>
+
+        <activity
+            android:configChanges="orientation|keyboardHidden"
+            android:name=".VideoViewPlayPause"
+            android:label="@string/title_activity_video_view_play_pause" >
+        </activity>
+        <activity
+            android:configChanges="orientation|keyboardHidden"
+            android:name=".AudioActivity"
+            android:label="@string/title_activity_audio" >
+        </activity>
+    </application>
+
+</manifest>
